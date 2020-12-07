@@ -1,3 +1,10 @@
+/*
+ * @Descripttion: 
+ * @Author: 豆豉
+ * @Date: 2020-12-07 21:15:46
+ * @LastEditors: 豆豉
+ * @LastEditTime: 2020-12-07 21:17:27
+ */
 import React, { useReducer } from 'react';
 import ReducerType from './ReducerType.js';
 
@@ -15,6 +22,8 @@ function reducer(state, action) {
             throw new Error('当前类型不存在');
     }
 }
+
+console.log(444)
 
 const HookUseReducer = ({initialState}) => {
     // 第一种方式初始化

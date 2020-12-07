@@ -1,3 +1,10 @@
+/*
+ * @Descripttion: 
+ * @Author: 豆豉
+ * @Date: 2020-12-07 21:15:46
+ * @LastEditors: 豆豉
+ * @LastEditTime: 2020-12-07 21:17:36
+ */
 import React, { useState, useRef, useEffect } from 'react';
 
 const NoFirstRender = () => {
@@ -21,5 +28,5 @@ const NoFirstRender = () => {
         </div>
     );
 };
-
+console.log(55)
 export default NoFirstRender;
