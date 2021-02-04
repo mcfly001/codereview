@@ -10,5 +10,6 @@ export const themes = {
         background: '#222222'
     }
 };
+console.log(1111)
 
 export const ThemeContext = React.createContext(themes.light);
