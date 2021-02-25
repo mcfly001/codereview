@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import useUpdateRender from './useUpdateRender';
+ useUpdateRender();
 
 /**
  * 当修改nodeNum的值的时候这部分会被重新调用执行
